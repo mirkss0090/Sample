@@ -1,0 +1,22 @@
+<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>e98971b3-55e1-4fcc-84ec-f42233dc1312</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>PHPDev</EnvName>
+    <RuntimeVersion>5.6</RuntimeVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+    <Content Remove="compilerconfig.json.defaults" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pages\mir\account\" />
+    <Folder Include="pages\mir\theme\" />
+    <Folder Include="wwwroot\css\" />
+  </ItemGroup>
+</Project>

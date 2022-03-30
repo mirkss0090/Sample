@@ -1,0 +1,30 @@
+﻿/*#region Position */
+/*#endregion */
+/*#region TextAlign */
+/*#endregion */
+/*#region OverFlow */
+/*#endregion */
+/*#region Flex */
+/*#endregion */
+/*#region Other */
+.product > .plan {
+  display: block;
+}
+
+/*#endregion */
+/*#region Font */
+/*#endregion */
+html > body {
+  font-size: 1.6rem;
+}
+
+.product {
+  padding: 4rem 2rem;
+}
+.product > .tab {
+  width: unset;
+}
+.product > .plan > div {
+  max-width: unset;
+  margin: 0 0 2rem 0;
+}

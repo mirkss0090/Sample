@@ -1,0 +1,60 @@
+﻿/*@import 'animation.scss';
+@import 'fontawesome.scss';
+@import 'font.scss';*/
+
+html {
+    font-size: 10px;
+
+    > body {
+        margin: 0;
+
+        a {
+            text-decoration: none;
+        }
+
+        input, select {
+            height: 100%;
+            padding: 0 1rem;
+            margin: 0;
+            border: none;
+            outline: none;
+            background-color: transparent;
+        }
+
+        input {
+            width: calc(100% - 2rem);
+        }
+
+        select {
+            width: 100%;
+        }
+
+        ::before, ::after {
+            content: '';
+        }
+
+        header, section, aside, article, div {
+            min-width: 0;
+            /*
+            &::after {
+                clear: both;
+                display: block;
+            }
+            */
+        }
+    }
+}
+
+@import 'layout.scss';
+
+@media (min-width: 415px) {
+    @import 'pc_c.scss';
+}
+
+/*@media (min-width: 420px) and (max-width: 719px) {
+    @import 'tablet_c.scss';
+}*/
+
+@media (min-width: 0) and (max-width: 414px) {
+    @import 'mobile_c.scss';
+}

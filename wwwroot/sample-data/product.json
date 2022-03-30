@@ -1,0 +1,125 @@
+[
+  {
+    "plan": "A",
+    "price": 50000,
+    "background": {
+      "image": true,
+      "simple": false,
+      "advanced": false
+    },
+    "process": {
+      "nukki": false,
+      "text_effect": false
+    },
+    "revision": {
+      "color": false,
+      "face": false
+    },
+    "resolution": null,
+    "source": false,
+    "consulting": null,
+    "free_edit": {
+      "text": true,
+      "model": true,
+      "layout": true,
+      "background": true
+    },
+    "banner": {
+      "image": true,
+      "slide": false
+    },
+    "popup": true,
+    "page": {
+      "promotion": false,
+      "landing": false,
+      "print": false,
+      "resizing": false
+    },
+    "detail": {
+      "process": true,
+      "check": true
+    }
+  },
+  {
+    "plan": "B",
+    "price": 100000,
+    "background": {
+      "image": true,
+      "simple": true,
+      "advanced": false
+    },
+    "process": {
+      "nukki": true,
+      "text_effect": true
+    },
+    "revision": {
+      "color": true,
+      "face": false
+    },
+    "resolution": null,
+    "source": false,
+    "consulting": null,
+    "free_edit": {
+      "text": true,
+      "model": true,
+      "layout": true,
+      "background": true
+    },
+    "banner": {
+      "image": true,
+      "slide": false
+    },
+    "popup": true,
+    "page": {
+      "promotion": false,
+      "landing": false,
+      "print": false,
+      "resizing": false
+    },
+    "detail": {
+      "process": true,
+      "check": true
+    }
+  },
+  {
+    "plan": "C",
+    "price": 150000,
+    "background": {
+      "image": true,
+      "simple": true,
+      "advanced": true
+    },
+    "process": {
+      "nukki": true,
+      "text_effect": true
+    },
+    "revision": {
+      "color": true,
+      "face": true
+    },
+    "resolution": null,
+    "source": false,
+    "consulting": null,
+    "free_edit": {
+      "text": true,
+      "model": true,
+      "layout": true,
+      "background": true
+    },
+    "banner": {
+      "image": true,
+      "slide": false
+    },
+    "popup": true,
+    "page": {
+      "promotion": false,
+      "landing": false,
+      "print": false,
+      "resizing": false
+    },
+    "detail": {
+      "process": true,
+      "check": true
+    }
+  }
+]

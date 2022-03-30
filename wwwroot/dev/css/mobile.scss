@@ -1,0 +1,24 @@
+﻿@import 'variable.scss';
+
+html {
+    > body {
+        font-size: 1.6rem;
+    }
+}
+
+.product {
+    padding: 4rem 2rem;
+
+    > .tab {
+        width: unset;
+    }
+
+    > .plan {
+        @include display-block;
+
+        > div {
+            max-width: unset;
+            margin: 0 0 2rem 0;
+        }
+    }
+}
